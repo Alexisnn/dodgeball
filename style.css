@@ -1,10 +1,16 @@
 #border{
-    height:100px;
+    height:400px;
     width:500px;
     border-width:15px;
     border-color:black;
     border-style:solid;
-    position: absolute;
-    margin-top: -50px;
-    margin-left: -250px;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    margin-top:-200px;
+    margin-left:-250px;
+}
+h1{
+    text-align:center;
+
 }
