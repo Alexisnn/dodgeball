@@ -1,9 +1,10 @@
-#border{
+.border{
     height:400px;
     width:500px;
     border-width:15px;
     border-color:black;
     border-style:solid;
+    position:fixed;
     left: 50%;
     top:50%;
     margin-top:-200px;
@@ -16,15 +17,8 @@ h1{
 h2{
     text-align:center;
 }
-img{
-    position: absolute;
-    bottom:0;
-    height:40px;
-    width:40px;
-}
-#move{
-    background-color:black;
-    height:20px;
-    width:55px;
-    float: right;
+.move{
+    height: 15px;
+    width: 50px;
+    background-color: black;
 }
