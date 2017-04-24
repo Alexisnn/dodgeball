@@ -1,10 +1,10 @@
-.border{
+#border{
     height:400px;
     width:500px;
     border-width:15px;
     border-color:black;
     border-style:solid;
-    position:fixed;
+    position: relative;
     left: 50%;
     top:50%;
     margin-top:-200px;
@@ -17,8 +17,10 @@ h1{
 h2{
     text-align:center;
 }
-.move{
+#move{
     height: 15px;
     width: 50px;
     background-color: black;
+    position:absolute;
+    bottom:5px;
 }
